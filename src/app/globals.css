@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  --color-void: #08080a;
+  --color-surface: #111114;
+  --color-raised: #18181c;
+
+  --color-primary: #ddd7cb;
+  --color-secondary: #908a7e;
+  --color-tertiary: #605c54;
+
+  --color-gold: #c9a84c;
+  --color-gold-dim: #6b5a2e;
+  --color-gold-faint: #3d3420;
+
+  --color-line: #222228;
+  --color-line-subtle: #1a1a1f;
+
+  --color-tech: #7ba3d4;
+  --color-science: #7fc484;
+  --color-world: #d4886e;
+  --color-economy: #c9a84c;
+  --color-policy: #b490c6;
+  --color-health: #6ec4b8;
+  --color-culture: #d4a46e;
+
+  --font-serif: var(--font-newsreader), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-azeret), "Courier New", monospace;
+
+  --animate-signal-in: signal-in 0.4s ease-out both;
+}
+
+@keyframes signal-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line) var(--color-void);
+}
+
+body {
+  background-color: var(--color-void);
+  color: var(--color-primary);
+  font-family: var(--font-serif);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gold signal line at top */
+body::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-gold-dim) 15%,
+    var(--color-gold) 50%,
+    var(--color-gold-dim) 85%,
+    transparent 100%
+  );
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+::selection {
+  background-color: var(--color-gold-faint);
+  color: var(--color-gold);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-void);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-tertiary);
+}

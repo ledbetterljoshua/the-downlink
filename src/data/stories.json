@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2026-02-11-001",
+    "date": "2026-02-11",
+    "headline": "Google DeepMind publishes open-source framework for evaluating autonomous AI agents",
+    "summary": "The framework, called AgentBench-2, provides standardized tests for measuring AI agent capabilities across planning, tool use, and safety dimensions. Unlike previous benchmarks focused on raw capability, this one explicitly measures an agent's tendency toward unsafe autonomous behavior.",
+    "why_it_matters": "As AI agents gain access to real-world tools — browsing, code execution, API calls — measuring safety alongside capability becomes critical. An open benchmark means independent researchers can verify claims rather than trusting self-reported scores.",
+    "category": "tech",
+    "sources": [
+      { "name": "DeepMind Blog", "url": "#" },
+      { "name": "arXiv", "url": "#" }
+    ],
+    "added_at": "2026-02-11T08:00:00Z"
+  },
+  {
+    "id": "2026-02-11-002",
+    "date": "2026-02-11",
+    "headline": "Reanalysis of Cassini mission data suggests complex organic chemistry in Enceladus ocean",
+    "summary": "A team at Southwest Research Institute applied new mass spectrometry techniques to data from Cassini's 2015 flythrough of Enceladus's water plumes. The results indicate amino acid precursors at higher concentrations than previously estimated.",
+    "why_it_matters": "Not proof of life, but it moves Enceladus higher on the short list of places in our solar system where life could independently arise. The fact that existing data still yields discoveries highlights how much signal we haven't fully processed.",
+    "category": "science",
+    "sources": [
+      { "name": "Nature Astronomy", "url": "#" },
+      { "name": "SwRI", "url": "#" }
+    ],
+    "added_at": "2026-02-11T09:30:00Z"
+  },
+  {
+    "id": "2026-02-11-003",
+    "date": "2026-02-11",
+    "headline": "US consumer debt-to-income ratio reaches highest level since 2008",
+    "summary": "Federal Reserve data shows aggregate consumer debt relative to disposable income has climbed to levels not seen since before the financial crisis. Credit card balances account for the largest proportional increase, while mortgage debt growth has slowed.",
+    "why_it_matters": "This metric was a leading indicator in 2007-2008. The composition is different this time — more credit card, less mortgage — which may mean different downstream effects. But the directional signal is worth watching.",
+    "category": "economy",
+    "sources": [
+      { "name": "Federal Reserve", "url": "#" },
+      { "name": "Bloomberg", "url": "#" }
+    ],
+    "added_at": "2026-02-11T10:15:00Z"
+  },
+  {
+    "id": "2026-02-11-004",
+    "date": "2026-02-11",
+    "headline": "India surpasses Japan as world's fourth-largest economy by nominal GDP",
+    "summary": "IMF quarterly data confirms India's nominal GDP has overtaken Japan's, a milestone anticipated but arriving roughly a year ahead of most projections. India's growth rate of 6.8% contrasts with Japan's continued deflationary challenges.",
+    "why_it_matters": "Reshuffles the geopolitical weight of the G7/G20 dynamic. India's economic leverage in climate negotiations, trade agreements, and tech policy increases. Worth tracking whether this translates to proportional influence in international institutions.",
+    "category": "world",
+    "sources": [
+      { "name": "IMF", "url": "#" },
+      { "name": "Reuters", "url": "#" }
+    ],
+    "added_at": "2026-02-11T11:00:00Z"
+  },
+  {
+    "id": "2026-02-10-001",
+    "date": "2026-02-10",
+    "headline": "WHO updates long COVID classification, now recognizes three distinct subtypes",
+    "summary": "The World Health Organization's revised clinical guidelines distinguish between post-viral fatigue syndrome, organ-specific long COVID, and autoimmune-triggered long COVID. Each subtype has different treatment protocols and prognosis.",
+    "why_it_matters": "Millions of people have been treated as a monolithic group. Subtype classification should improve treatment matching and research targeting. If you or someone you know has long COVID, the subtype distinction may be worth discussing with a physician.",
+    "category": "health",
+    "sources": [
+      { "name": "WHO", "url": "#" },
+      { "name": "The Lancet", "url": "#" }
+    ],
+    "added_at": "2026-02-10T14:00:00Z"
+  },
+  {
+    "id": "2026-02-10-002",
+    "date": "2026-02-10",
+    "headline": "California passes first-in-nation legislation requiring AI system impact audits",
+    "summary": "SB 892 requires companies deploying AI systems affecting more than 100,000 California residents to conduct and publish annual impact audits. The audits must cover accuracy, bias, and economic displacement effects.",
+    "why_it_matters": "California has historically set de facto national standards through state legislation — emissions, privacy. Whether this becomes a template depends on enforcement teeth and whether companies comply voluntarily to avoid a patchwork of state laws.",
+    "category": "policy",
+    "sources": [
+      { "name": "CalMatters", "url": "#" },
+      { "name": "Ars Technica", "url": "#" }
+    ],
+    "added_at": "2026-02-10T16:30:00Z"
+  }
+]
