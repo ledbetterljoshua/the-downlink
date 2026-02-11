@@ -41,31 +41,40 @@ export function StoryFeed({
   return (
     <div>
       <div className="sticky-nav mb-8">
-        <nav className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-[11px]">
-          <button
-            onClick={() => setActive("all")}
-            className={`uppercase tracking-wider transition-colors ${
-              active === "all"
-                ? "text-gold"
-                : "text-tertiary hover:text-secondary"
-            }`}
-          >
-            all
-          </button>
-          {CATEGORIES.map((cat) => (
+        <div className="flex items-start justify-between gap-4">
+          <nav className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-[11px]">
             <button
-              key={cat}
-              onClick={() => setActive(cat)}
+              onClick={() => setActive("all")}
               className={`uppercase tracking-wider transition-colors ${
-                active === cat
+                active === "all"
                   ? "text-gold"
                   : "text-tertiary hover:text-secondary"
               }`}
             >
-              {cat}
+              all
             </button>
-          ))}
-        </nav>
+            {CATEGORIES.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActive(cat)}
+                className={`uppercase tracking-wider transition-colors ${
+                  active === cat
+                    ? "text-gold"
+                    : "text-tertiary hover:text-secondary"
+                }`}
+              >
+                {cat}
+              </button>
+            ))}
+          </nav>
+          <button
+            onClick={() => window.location.reload()}
+            className="font-mono text-[11px] text-tertiary hover:text-gold transition-colors shrink-0"
+            aria-label="Refresh"
+          >
+            ↻
+          </button>
+        </div>
       </div>
 
       {grouped.length === 0 ? (
