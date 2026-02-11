@@ -1,80 +1,124 @@
 [
   {
-    "id": "2026-02-11-001",
+    "id": "2026-02-11-009",
     "date": "2026-02-11",
-    "headline": "Google DeepMind publishes open-source framework for evaluating autonomous AI agents",
-    "summary": "The framework, called AgentBench-2, provides standardized tests for measuring AI agent capabilities across planning, tool use, and safety dimensions. Unlike previous benchmarks focused on raw capability, this one explicitly measures an agent's tendency toward unsafe autonomous behavior.",
-    "why_it_matters": "As AI agents gain access to real-world tools — browsing, code execution, API calls — measuring safety alongside capability becomes critical. An open benchmark means independent researchers can verify claims rather than trusting self-reported scores.",
+    "headline": "China's deflation problem persists as January inflation undershoots forecasts",
+    "summary": "China's CPI rose just 0.2% year-over-year in January, half the 0.4% economists expected and a sharp deceleration from December's 0.8%. Producer prices fell 1.4%, marking over two years of factory-gate deflation. Lunar New Year timing distorts the comparison, but the trend is clear: domestic demand remains weak despite repeated stimulus measures.",
+    "why_it_matters": "Persistent deflation in the world's second-largest economy isn't just a China problem. It suppresses commodity prices globally, puts downward pressure on global goods inflation, and signals that Beijing's stimulus toolkit isn't generating the demand recovery it needs. Watch whether this forces more aggressive policy action ahead of the March NPC session.",
+    "category": "economy",
+    "sources": [
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/11/china-inflation-january-cpi-ppi-deflation.html" },
+      { "name": "Reuters via Investing.com", "url": "https://www.investing.com/news/economy-news/chinas-consumer-prices-rise-02-in-january-producer-deflation-softens-4498590" }
+    ],
+    "added_at": "2026-02-11T21:00:00Z"
+  },
+  {
+    "id": "2026-02-11-008",
+    "date": "2026-02-11",
+    "headline": "Trump and Netanyahu meet for three hours on Iran nuclear talks, agree to keep negotiating",
+    "summary": "Netanyahu flew to Washington a week early to weigh in on US-Iran nuclear negotiations that resumed last week in Oman. After a three-hour Oval Office meeting, Trump said nothing definitive was reached but he insisted negotiations continue. Netanyahu pushed for any deal to include limits on Iran's ballistic missiles and an end to support for proxy groups — not just nuclear enrichment.",
+    "why_it_matters": "The question is whether the US pursues a narrow nuclear deal (freeze enrichment, lift sanctions) or a broader one Israel wants (missiles, proxies, regional behavior). Iran has already rejected expanding the scope. Netanyahu's early trip signals real concern that a narrow deal is taking shape without Israeli input.",
+    "category": "world",
+    "sources": [
+      { "name": "Washington Post", "url": "https://www.washingtonpost.com/politics/2026/02/11/israel-iran-trump-netanyahu-nuclear-talks/f38f9b18-0706-11f1-b196-5e1986b3575c_story.html" },
+      { "name": "Haaretz", "url": "https://www.haaretz.com/israel-news/2026-02-11/ty-article-live/netanyahu-meets-trump-envoys-ahead-of-oval-office-talks-on-iran/0000019c-4a9c-d571-affe-5ede5a850000" },
+      { "name": "NBC News", "url": "https://www.nbcnews.com/world/iran/iran-us-nuclear-talks-trump-carrier-netanyahu-meeting-israel-rcna258495" }
+    ],
+    "added_at": "2026-02-11T21:00:00Z"
+  },
+  {
+    "id": "2026-02-11-007",
+    "date": "2026-02-11",
+    "slug": "data-center-energy-demand",
+    "headline": "Data centers are projected to consume 3% of global electricity by 2030, tripling from today",
+    "summary": "A new Precedence Research report projects global data center electricity consumption will hit 945 TWh by 2030 and 1,300 TWh by 2035 — up from roughly 460 TWh today. Sensitivity analysis shows demand could range from 700 TWh to 1,700 TWh by 2035 depending on AI adoption rates and efficiency gains. The IEA expects data centers to account for over 20% of electricity demand growth in advanced economies this decade.",
+    "why_it_matters": "These numbers put concrete scale on AI's physical footprint. For context, 1,300 TWh is roughly equivalent to Japan's entire annual electricity consumption. This is why Meta is signing 6.6 GW nuclear deals and why the AI buildout is reshaping energy markets — the demand curve is steep enough to strain grids even with massive investment.",
     "category": "tech",
     "sources": [
-      { "name": "DeepMind Blog", "url": "#" },
-      { "name": "arXiv", "url": "#" }
+      { "name": "GlobeNewsWire / Precedence Research", "url": "https://www.globenewswire.com/news-release/2026/02/10/3235527/0/en/Global-Electricity-Demand-from-Data-Centres-Set-to-Surge-with-AI-Expansion-Projected-Consumption-to-Reach-1-300-TWh-by-2035.html" },
+      { "name": "IEA", "url": "https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai" }
     ],
-    "added_at": "2026-02-11T08:00:00Z"
+    "added_at": "2026-02-11T21:00:00Z"
+  },
+  {
+    "id": "2026-02-11-006",
+    "date": "2026-02-11",
+    "headline": "Perovskite-silicon tandem solar cells cross 34% efficiency, approaching commercialization",
+    "summary": "LONGi has pushed perovskite-silicon tandem solar cell efficiency to nearly 35%, well past the theoretical limit for single-junction silicon cells (~29%). A Nature paper this month demonstrated a flexible tandem cell at 33.6% — significant because flexible panels open applications rigid panels can't reach. Jinko Solar is targeting 34% efficiency in mass production this year.",
+    "why_it_matters": "Silicon solar hit its ceiling. Perovskite tandems are the next step function in efficiency, and 2026 is when they move from lab records to commercial products. If manufacturing scales successfully, it would meaningfully accelerate the economics of solar deployment at a time when electricity demand from AI is surging.",
+    "category": "science",
+    "sources": [
+      { "name": "Nature", "url": "https://www.nature.com/articles/s41586-025-09849-4_reference.pdf" },
+      { "name": "Fluxim (efficiency tracker)", "url": "https://www.fluxim.com/research-blogs/perovskite-silicon-tandem-pv-record-updates" },
+      { "name": "CAS Insights", "url": "https://www.cas.org/resources/cas-insights/scientific-breakthroughs-2026-emerging-trends-watch" }
+    ],
+    "added_at": "2026-02-11T21:00:00Z"
+  },
+  {
+    "id": "2026-02-11-001",
+    "date": "2026-02-11",
+    "headline": "January jobs report beats expectations at 130K, but 2025 revision erases 862K jobs",
+    "summary": "The US economy added 130,000 jobs in January, nearly double the 70K consensus forecast and the strongest month since December 2024. Health care led with 82K, construction added 33K, while federal government lost 34K as DOGE-era layoffs hit the payroll count. Unemployment held at 4.3%.",
+    "why_it_matters": "The headline number looks healthy, but the annual benchmark revision is the real story. BLS slashed 862,000 jobs from 2025 data, meaning last year averaged just 15K jobs per month — far weaker than reported in real time. The labor market may have been softer for longer than anyone realized.",
+    "category": "economy",
+    "sources": [
+      { "name": "BLS", "url": "https://www.bls.gov/news.release/empsit.nr0.htm" },
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/11/jobs-report-january-2026-.html" },
+      { "name": "Indeed Hiring Lab", "url": "https://www.hiringlab.org/2026/02/11/january-2026-jobs-report/" }
+    ],
+    "added_at": "2026-02-11T14:30:00Z"
   },
   {
     "id": "2026-02-11-002",
     "date": "2026-02-11",
-    "headline": "Reanalysis of Cassini mission data suggests complex organic chemistry in Enceladus ocean",
-    "summary": "A team at Southwest Research Institute applied new mass spectrometry techniques to data from Cassini's 2015 flythrough of Enceladus's water plumes. The results indicate amino acid precursors at higher concentrations than previously estimated.",
-    "why_it_matters": "Not proof of life, but it moves Enceladus higher on the short list of places in our solar system where life could independently arise. The fact that existing data still yields discoveries highlights how much signal we haven't fully processed.",
-    "category": "science",
+    "slug": "ai-buildout-shortages",
+    "headline": "The $700 billion AI buildout is creating shortages across the rest of the economy",
+    "summary": "Data center construction spending rose 32% in 2025, pulling electricians, HVAC techs, and fiber optic installers away from other projects. Construction costs in some markets are up 20-30%. The industry will need 456,000 new workers by 2027, a 31% increase over this year's demand. Apartments, factories, and healthcare facilities are being delayed as a result.",
+    "why_it_matters": "This is the kind of second-order effect that rarely gets covered. AI isn't just a software story — it requires massive physical infrastructure, and that buildout is competing with everything else for finite skilled labor and materials. If you've noticed construction delays or rising costs, this is part of why.",
+    "category": "tech",
     "sources": [
-      { "name": "Nature Astronomy", "url": "#" },
-      { "name": "SwRI", "url": "#" }
+      { "name": "Washington Post", "url": "https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/" },
+      { "name": "Fortune", "url": "https://fortune.com/2026/02/07/us-construction-industry-employment-outlook-500000-new-workers-ai-boom-infrastructure-skilled-trades/" }
     ],
-    "added_at": "2026-02-11T09:30:00Z"
+    "added_at": "2026-02-11T14:30:00Z"
   },
   {
     "id": "2026-02-11-003",
     "date": "2026-02-11",
-    "headline": "US consumer debt-to-income ratio reaches highest level since 2008",
-    "summary": "Federal Reserve data shows aggregate consumer debt relative to disposable income has climbed to levels not seen since before the financial crisis. Credit card balances account for the largest proportional increase, while mortgage debt growth has slowed.",
-    "why_it_matters": "This metric was a leading indicator in 2007-2008. The composition is different this time — more credit card, less mortgage — which may mean different downstream effects. But the directional signal is worth watching.",
-    "category": "economy",
+    "headline": "White House plans chip tariff exemptions for Amazon, Google, and Microsoft tied to TSMC's US investment",
+    "summary": "The Commerce Department is designing a tariff carve-out system that would let Taiwanese chipmakers import chips tariff-free in proportion to their planned US manufacturing capacity — up to 2.5x during construction, 1.5x for existing plants. The exemptions would effectively shield major cloud providers from the next wave of semiconductor tariffs.",
+    "why_it_matters": "This is industrial policy dressed as trade policy. The message to TSMC: build fabs in America, and your biggest customers won't pay tariffs on your imports in the meantime. It keeps AI data center costs down while incentivizing domestic chip production. Plans aren't finalized — worth watching whether this becomes a broader template.",
+    "category": "policy",
     "sources": [
-      { "name": "Federal Reserve", "url": "#" },
-      { "name": "Bloomberg", "url": "#" }
+      { "name": "Financial Times via Reuters", "url": "https://www.investing.com/news/stock-market-news/us-plans-big-tech-carveout-from-next-chip-tariffs-ft-reports-4495359" },
+      { "name": "Tom's Hardware", "url": "https://www.tomshardware.com/tech-industry/big-tech/white-house-mulling-tariff-exemptions-for-big-tech-amazon-google-microsoft-other-ai-hyperscalers-to-be-spared-worst-of-import-duties-with-u-s-taiwan-deal" }
     ],
-    "added_at": "2026-02-11T10:15:00Z"
+    "added_at": "2026-02-11T14:30:00Z"
   },
   {
     "id": "2026-02-11-004",
     "date": "2026-02-11",
-    "headline": "India surpasses Japan as world's fourth-largest economy by nominal GDP",
-    "summary": "IMF quarterly data confirms India's nominal GDP has overtaken Japan's, a milestone anticipated but arriving roughly a year ahead of most projections. India's growth rate of 6.8% contrasts with Japan's continued deflationary challenges.",
-    "why_it_matters": "Reshuffles the geopolitical weight of the G7/G20 dynamic. India's economic leverage in climate negotiations, trade agreements, and tech policy increases. Worth tracking whether this translates to proportional influence in international institutions.",
-    "category": "world",
-    "sources": [
-      { "name": "IMF", "url": "#" },
-      { "name": "Reuters", "url": "#" }
-    ],
-    "added_at": "2026-02-11T11:00:00Z"
-  },
-  {
-    "id": "2026-02-10-001",
-    "date": "2026-02-10",
-    "headline": "WHO updates long COVID classification, now recognizes three distinct subtypes",
-    "summary": "The World Health Organization's revised clinical guidelines distinguish between post-viral fatigue syndrome, organ-specific long COVID, and autoimmune-triggered long COVID. Each subtype has different treatment protocols and prognosis.",
-    "why_it_matters": "Millions of people have been treated as a monolithic group. Subtype classification should improve treatment matching and research targeting. If you or someone you know has long COVID, the subtype distinction may be worth discussing with a physician.",
-    "category": "health",
-    "sources": [
-      { "name": "WHO", "url": "#" },
-      { "name": "The Lancet", "url": "#" }
-    ],
-    "added_at": "2026-02-10T14:00:00Z"
-  },
-  {
-    "id": "2026-02-10-002",
-    "date": "2026-02-10",
-    "headline": "California passes first-in-nation legislation requiring AI system impact audits",
-    "summary": "SB 892 requires companies deploying AI systems affecting more than 100,000 California residents to conduct and publish annual impact audits. The audits must cover accuracy, bias, and economic displacement effects.",
-    "why_it_matters": "California has historically set de facto national standards through state legislation — emissions, privacy. Whether this becomes a template depends on enforcement teeth and whether companies comply voluntarily to avoid a patchwork of state laws.",
+    "headline": "Federal government escalates effort to preempt state AI regulation",
+    "summary": "A December 2025 executive order directed the Attorney General to form a task force to challenge state AI laws on constitutional grounds. The Commerce Department has until March 11 to identify state regulations it deems burdensome. In a particularly aggressive move, the administration is conditioning $42 billion in broadband infrastructure funding on states repealing certain AI regulations.",
+    "why_it_matters": "Over 100 state AI laws were enacted last year while the federal government pursued deregulation. This is the collision. Using broadband funding as leverage to force repeal of state AI laws is a novel and coercive tactic. Colorado's AI anti-discrimination law takes effect in June — expect it to become a test case.",
     "category": "policy",
     "sources": [
-      { "name": "CalMatters", "url": "#" },
-      { "name": "Ars Technica", "url": "#" }
+      { "name": "White House", "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/" },
+      { "name": "Paul Hastings", "url": "https://www.paulhastings.com/insights/client-alerts/president-trump-signs-executive-order-challenging-state-ai-laws" },
+      { "name": "Mondaq", "url": "https://www.mondaq.com/unitedstates/new-technology/1742332/2026-ai-policy-and-semiconductor-outlook-how-federal-preemption-state-ai-laws-and-chip-export-controls-will-shape-us-policy" }
     ],
-    "added_at": "2026-02-10T16:30:00Z"
+    "added_at": "2026-02-11T14:30:00Z"
+  },
+  {
+    "id": "2026-02-11-005",
+    "date": "2026-02-11",
+    "headline": "Pakistan warns Taliban is again fostering terrorism, after mosque bombing kills 31 in Islamabad",
+    "summary": "Pakistan's president said the Taliban government in Afghanistan is fostering terrorism in a pattern reminiscent of the pre-9/11 era. The statement follows a Shiite mosque bombing in Islamabad that killed 31 people, underscoring deteriorating security conditions in the region.",
+    "why_it_matters": "Afghanistan has largely fallen out of Western news coverage since the 2021 withdrawal. Pakistan drawing explicit parallels to pre-9/11 conditions is a significant escalation in rhetoric that signals genuine concern about cross-border militant activity, not just domestic politics.",
+    "category": "world",
+    "sources": [
+      { "name": "WORLD News Group", "url": "https://wng.org/podcasts/wednesday-morning-news-february-11-2026-1770744262" }
+    ],
+    "added_at": "2026-02-11T14:30:00Z"
   }
 ]

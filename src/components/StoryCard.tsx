@@ -1,3 +1,6 @@
+"use client"
+
+import Link from "next/link"
 import type { Story, Category } from "@/types"
 
 const CATEGORY_COLORS: Record<Category, string> = {
@@ -10,9 +13,20 @@ const CATEGORY_COLORS: Record<Category, string> = {
   culture: "text-culture",
 }
 
-export function StoryCard({ story }: { story: Story }) {
+export function StoryCard({
+  story,
+  isSeen,
+  onMarkSeen,
+}: {
+  story: Story
+  isSeen: boolean
+  onMarkSeen: () => void
+}) {
   return (
-    <article className="py-6">
+    <article
+      className={`py-6 transition-opacity duration-300 cursor-pointer ${isSeen ? "opacity-40" : ""}`}
+      onClick={onMarkSeen}
+    >
       <div className="mb-3">
         <span
           className={`font-mono text-[11px] tracking-wider uppercase ${CATEGORY_COLORS[story.category] || "text-tertiary"}`}
@@ -40,7 +54,7 @@ export function StoryCard({ story }: { story: Story }) {
         </div>
       )}
 
-      <div className="flex flex-wrap gap-x-3">
+      <div className="flex flex-wrap items-center gap-x-3">
         {story.sources.map((source, i) => (
           <a
             key={i}
@@ -48,10 +62,23 @@ export function StoryCard({ story }: { story: Story }) {
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-[11px] text-tertiary hover:text-gold transition-colors"
+            onClick={(e) => e.stopPropagation()}
           >
             {source.name} ↗
           </a>
         ))}
+        {story.slug && (
+          <>
+            <span className="text-line-subtle font-mono text-[11px]">·</span>
+            <Link
+              href={`/article/${story.slug}`}
+              className="font-mono text-[11px] text-gold hover:text-primary transition-colors"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Full analysis →
+            </Link>
+          </>
+        )}
       </div>
     </article>
   )

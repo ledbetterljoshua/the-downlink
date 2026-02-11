@@ -2,18 +2,35 @@
 
 import { useState, useMemo } from "react"
 import type { Story, Category } from "@/types"
-import { groupByDate, filterByCategory, formatDate, CATEGORIES } from "@/lib/stories"
+import {
+  groupByDate,
+  filterByCategory,
+  formatDate,
+  CATEGORIES,
+} from "@/lib/stories"
+import { useSeenStories } from "@/hooks/useSeenStories"
 import { StoryCard } from "./StoryCard"
 
 export function StoryFeed({ stories }: { stories: Story[] }) {
   const [active, setActive] = useState<Category | "all">("all")
+  const { seen, markSeen, isSeen } = useSeenStories()
 
   const filtered = useMemo(
     () => filterByCategory(stories, active),
     [stories, active]
   )
 
-  const grouped = useMemo(() => groupByDate(filtered), [filtered])
+  const grouped = useMemo(() => {
+    const groups = groupByDate(filtered)
+    return groups.map(([date, dateStories]) => {
+      const sorted = [...dateStories].sort((a, b) => {
+        const aSeen = seen.has(a.id) ? 1 : 0
+        const bSeen = seen.has(b.id) ? 1 : 0
+        return aSeen - bSeen
+      })
+      return [date, sorted] as [string, Story[]]
+    })
+  }, [filtered, seen])
 
   return (
     <div>
@@ -21,7 +38,9 @@ export function StoryFeed({ stories }: { stories: Story[] }) {
         <button
           onClick={() => setActive("all")}
           className={`uppercase tracking-wider transition-colors ${
-            active === "all" ? "text-gold" : "text-tertiary hover:text-secondary"
+            active === "all"
+              ? "text-gold"
+              : "text-tertiary hover:text-secondary"
           }`}
         >
           all
@@ -31,7 +50,9 @@ export function StoryFeed({ stories }: { stories: Story[] }) {
             key={cat}
             onClick={() => setActive(cat)}
             className={`uppercase tracking-wider transition-colors ${
-              active === cat ? "text-gold" : "text-tertiary hover:text-secondary"
+              active === cat
+                ? "text-gold"
+                : "text-tertiary hover:text-secondary"
             }`}
           >
             {cat}
@@ -60,7 +81,11 @@ export function StoryFeed({ stories }: { stories: Story[] }) {
                   className="animate-signal-in"
                   style={{ animationDelay: `${i * 60}ms` }}
                 >
-                  <StoryCard story={story} />
+                  <StoryCard
+                    story={story}
+                    isSeen={isSeen(story.id)}
+                    onMarkSeen={() => markSeen(story.id)}
+                  />
                 </div>
               ))}
             </div>

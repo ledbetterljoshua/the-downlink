@@ -21,4 +21,5 @@ export interface Story {
   category: Category
   sources: Source[]
   added_at: string
+  slug?: string
 }
