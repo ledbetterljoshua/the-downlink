@@ -53,6 +53,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 /* Gold signal line at top */
@@ -70,9 +74,32 @@ body::before {
     transparent 100%
   );
   position: fixed;
-  top: 0;
+  top: env(safe-area-inset-top, 0px);
   left: 0;
   z-index: 50;
+}
+
+/* Sticky category filter */
+.sticky-nav {
+  position: sticky;
+  top: calc(env(safe-area-inset-top, 0px) + 2px);
+  z-index: 40;
+  background-color: var(--color-void);
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .sticky-nav {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 ::selection {

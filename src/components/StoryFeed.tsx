@@ -11,7 +11,13 @@ import {
 import { useSeenStories } from "@/hooks/useSeenStories"
 import { StoryCard } from "./StoryCard"
 
-export function StoryFeed({ stories }: { stories: Story[] }) {
+export function StoryFeed({
+  stories,
+  overviews,
+}: {
+  stories: Story[]
+  overviews: Record<string, string>
+}) {
   const [active, setActive] = useState<Category | "all">("all")
   const { seen, markSeen, isSeen } = useSeenStories()
 
@@ -34,31 +40,33 @@ export function StoryFeed({ stories }: { stories: Story[] }) {
 
   return (
     <div>
-      <nav className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-[11px] mb-10">
-        <button
-          onClick={() => setActive("all")}
-          className={`uppercase tracking-wider transition-colors ${
-            active === "all"
-              ? "text-gold"
-              : "text-tertiary hover:text-secondary"
-          }`}
-        >
-          all
-        </button>
-        {CATEGORIES.map((cat) => (
+      <div className="sticky-nav mb-8">
+        <nav className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-[11px]">
           <button
-            key={cat}
-            onClick={() => setActive(cat)}
+            onClick={() => setActive("all")}
             className={`uppercase tracking-wider transition-colors ${
-              active === cat
+              active === "all"
                 ? "text-gold"
                 : "text-tertiary hover:text-secondary"
             }`}
           >
-            {cat}
+            all
           </button>
-        ))}
-      </nav>
+          {CATEGORIES.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActive(cat)}
+              className={`uppercase tracking-wider transition-colors ${
+                active === cat
+                  ? "text-gold"
+                  : "text-tertiary hover:text-secondary"
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </nav>
+      </div>
 
       {grouped.length === 0 ? (
         <p className="font-serif italic text-tertiary text-center py-20">
@@ -73,6 +81,12 @@ export function StoryFeed({ stories }: { stories: Story[] }) {
               </time>
               <div className="flex-1 h-px bg-line" />
             </div>
+
+            {overviews[date] && (
+              <p className="font-serif italic text-secondary text-[15px] leading-relaxed mt-4 mb-2">
+                {overviews[date]}
+              </p>
+            )}
 
             <div className="divide-y divide-line-subtle">
               {dateStories.map((story, i) => (

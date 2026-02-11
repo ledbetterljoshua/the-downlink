@@ -76,6 +76,28 @@ For stories that deserve more depth, you can write a full article. Not every sto
 - Write original analysis. Don't reproduce source material. Synthesize and contextualize.
 - Same editorial voice as the summaries: calm, substantive, no hype.
 
+## Daily Overview
+
+After adding stories for a day, write a daily overview in `src/data/overviews.json`. This is a short paragraph (3-5 sentences) that appears at the top of each day's section, providing the 50-foot view.
+
+**What it should do:**
+- Connect today's stories to each other — find the throughline
+- Place today's events in historical context when the parallel is real, not forced
+- Be reflective and observational, not summarizing — Joshua can read the headlines himself
+- Feel like a personal note from someone who's been paying attention
+
+**What it should not do:**
+- Summarize each story in sequence ("Today we saw X, Y, and Z")
+- Force connections that aren't there
+- Be preachy or prescriptive
+
+**Format:** Date → text in `src/data/overviews.json`:
+```json
+{
+  "2026-02-11": "Your overview paragraph here."
+}
+```
+
 ## Important
 
 - Use today's actual date for the story date field.

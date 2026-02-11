@@ -1,0 +1,9 @@
+{
+  "name": "The Downlink",
+  "short_name": "Downlink",
+  "description": "Signal from the noise.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#08080a",
+  "theme_color": "#08080a"
+}
