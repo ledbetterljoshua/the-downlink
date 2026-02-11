@@ -40,8 +40,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${newsreader.variable} ${azeret.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="en"
+      className={`${newsreader.variable} ${azeret.variable}`}
+      style={{ backgroundColor: "#08080a" }}
+    >
+      <body style={{ backgroundColor: "#08080a" }}>{children}</body>
     </html>
   )
 }
