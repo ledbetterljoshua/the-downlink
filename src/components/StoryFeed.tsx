@@ -41,41 +41,44 @@ export function StoryFeed({
   return (
     <div>
       <div className="sticky-nav mb-8">
-        <div className="flex items-start justify-between gap-4">
-          <nav className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-[11px]">
+        <nav className="flex flex-wrap gap-x-4 gap-y-2 font-mono text-[11px]">
+          <button
+            onClick={() => setActive("all")}
+            className={`uppercase tracking-wider transition-colors ${
+              active === "all"
+                ? "text-gold"
+                : "text-tertiary hover:text-secondary"
+            }`}
+          >
+            all
+          </button>
+          {CATEGORIES.map((cat) => (
             <button
-              onClick={() => setActive("all")}
+              key={cat}
+              onClick={() => setActive(cat)}
               className={`uppercase tracking-wider transition-colors ${
-                active === "all"
+                active === cat
                   ? "text-gold"
                   : "text-tertiary hover:text-secondary"
               }`}
             >
-              all
+              {cat}
             </button>
-            {CATEGORIES.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setActive(cat)}
-                className={`uppercase tracking-wider transition-colors ${
-                  active === cat
-                    ? "text-gold"
-                    : "text-tertiary hover:text-secondary"
-                }`}
-              >
-                {cat}
-              </button>
-            ))}
-          </nav>
-          <button
-            onClick={() => window.location.reload()}
-            className="font-mono text-[11px] text-tertiary hover:text-gold transition-colors shrink-0"
-            aria-label="Refresh"
-          >
-            ↻
-          </button>
-        </div>
+          ))}
+        </nav>
       </div>
+
+      <button
+        onClick={() => window.location.reload()}
+        className="fixed z-50 w-11 h-11 rounded-full bg-surface border border-line flex items-center justify-center font-mono text-base text-tertiary active:text-gold active:border-gold-dim transition-colors"
+        style={{
+          right: "calc(env(safe-area-inset-right, 0px) + 1.25rem)",
+          bottom: "calc(env(safe-area-inset-bottom, 0px) + 1.5rem)",
+        }}
+        aria-label="Refresh"
+      >
+        ↻
+      </button>
 
       {grouped.length === 0 ? (
         <p className="font-serif italic text-tertiary text-center py-20">

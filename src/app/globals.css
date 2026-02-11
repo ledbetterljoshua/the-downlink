@@ -42,6 +42,7 @@
 }
 
 html {
+  background-color: var(--color-void);
   scrollbar-width: thin;
   scrollbar-color: var(--color-line) var(--color-void);
 }
