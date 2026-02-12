@@ -1,5 +1,141 @@
 [
   {
+    "id": "2026-02-12-010",
+    "date": "2026-02-12",
+    "slug": "kanzi-pretend-play",
+    "headline": "A bonobo tracked imaginary juice at a pretend tea party — and got it right",
+    "summary": "A study published in Science shows that Kanzi, a language-trained bonobo, could track pretend objects across spatial manipulations, pointing correctly to which cup held imaginary juice after it was 'poured' and moved. Across three experiments, Kanzi reliably distinguished real from pretend objects and maintained mental representations of things that didn't exist. He died last year at 44; this is among his final contributions to science.",
+    "why_it_matters": "Secondary representation — holding a mental model of something imaginary and updating it — was considered uniquely human. Finding it in a bonobo suggests the cognitive architecture for imagination may predate the human-ape split by 6 to 9 million years. As we debate what minds machines might have, we keep discovering the minds already here.",
+    "category": "science",
+    "sources": [
+      { "name": "Science", "url": "https://www.science.org/doi/10.1126/science.adz0743" },
+      { "name": "Nature", "url": "https://www.nature.com/articles/d41586-026-00357-7" },
+      { "name": "NPR", "url": "https://www.npr.org/2026/02/06/nx-s1-5698505/a-study-of-a-remarkable-bonobo-named-kanzi-shows-apes-may-play-make-believe" }
+    ],
+    "added_at": "2026-02-12T22:00:00Z"
+  },
+  {
+    "id": "2026-02-12-009",
+    "date": "2026-02-12",
+    "headline": "Anthropic puts $20 million into midterm races backing candidates who support AI regulation",
+    "summary": "Anthropic is donating $20 million to Public First Action, a bipartisan advocacy group backing candidates who favor AI transparency and safety regulation. The move directly counters Leading the Future, a $125 million super PAC funded by tech billionaires pushing for lighter AI regulation. First announced candidates include support for Republican Sen. Marsha Blackburn's Tennessee governor race and Sen. Pete Ricketts' Nebraska reelection.",
+    "why_it_matters": "This makes Anthropic the first frontier AI lab to put serious money behind pro-regulation candidates — an unusual position in an industry where the dominant political spend has been anti-regulation. The $20M vs. $125M mismatch tells you the asymmetry of the fight, but Anthropic is betting that 'build it safe' is a viable political identity, not just a corporate talking point.",
+    "category": "policy",
+    "sources": [
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/12/anthropic-gives-20-million-to-group-pushing-for-ai-regulations-.html" },
+      { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-12/anthropic-pledges-20-million-to-candidates-who-favor-ai-safety" },
+      { "name": "Axios", "url": "https://www.axios.com/2026/02/12/anthropic-millions-ai-policy-fight" }
+    ],
+    "added_at": "2026-02-12T22:00:00Z"
+  },
+  {
+    "id": "2026-02-12-008",
+    "date": "2026-02-12",
+    "headline": "Pentagon pushes AI companies to deploy tools on classified networks with fewer restrictions",
+    "summary": "US defense officials are pressing major AI companies to deploy their models across classified military networks with broader access and fewer usage guardrails. The push creates tension between the military's desire for unrestricted AI capabilities and companies' concerns about autonomous targeting, surveillance applications, and liability in high-stakes operational scenarios.",
+    "why_it_matters": "This is the quiet version of the AI arms race. While the public debate focuses on chatbots and coding assistants, the military is negotiating how much autonomy AI systems get in contexts where mistakes are lethal. The companies' willingness to draw lines — or not — will set precedents that outlast any individual contract.",
+    "category": "policy",
+    "sources": [
+      { "name": "Tech Startups", "url": "https://techstartups.com/2026/02/12/top-tech-news-today-february-12-2026/" }
+    ],
+    "added_at": "2026-02-12T22:00:00Z"
+  },
+  {
+    "id": "2026-02-12-007",
+    "date": "2026-02-12",
+    "headline": "Scientists propose a formal framework for testing whether AI systems are conscious",
+    "summary": "A paper in Trends in Cognitive Sciences by Patrick Butlin, Yoshua Bengio, and others lays out a method for identifying consciousness indicators in AI systems by drawing on neuroscientific theories — global workspace, recurrent processing, higher-order theories, and attention schema. Rather than requiring agreement on which theory is correct, they derive testable indicators from all major theories and assess AI architectures against them. Their conclusion: no current systems meet the criteria, but there are no obvious barriers to building ones that would.",
+    "why_it_matters": "This is the most rigorous attempt yet to move the AI consciousness question from philosophy to something empirically tractable. Instead of asking 'is it conscious?' they ask 'does it have the computational properties that theories of consciousness say are necessary?' The framework doesn't resolve the hard problem, but it gives us something better than vibes.",
+    "category": "science",
+    "sources": [
+      { "name": "Trends in Cognitive Sciences", "url": "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00286-4" },
+      { "name": "Frontiers in Science", "url": "https://www.sciencedaily.com/releases/2026/01/260131084626.htm" }
+    ],
+    "added_at": "2026-02-12T22:00:00Z"
+  },
+  {
+    "id": "2026-02-12-006",
+    "date": "2026-02-12",
+    "headline": "Fusion startup Inertia raises $450 million as data center power demand reshapes energy investment",
+    "summary": "Inertia Enterprises closed a $450 million funding round, joining a growing cohort of fusion startups attracting serious capital. The investment is driven less by climate idealism than by a concrete near-term problem: AI data centers need power at a scale that existing grids and renewables can't easily provide. Hyperscalers are signing long-term power contracts years before facilities are built.",
+    "why_it_matters": "Fusion has always been '30 years away.' What changed isn't the physics — it's the demand signal. When Meta, Microsoft, and Google are signing multi-gigawatt deals and competing for grid capacity, long-shot energy bets start looking less speculative and more like hedges against a real infrastructure bottleneck.",
+    "category": "tech",
+    "sources": [
+      { "name": "Tech Startups", "url": "https://techstartups.com/2026/02/12/top-tech-news-today-february-12-2026/" }
+    ],
+    "added_at": "2026-02-12T22:00:00Z"
+  },
+  {
+    "id": "2026-02-12-005",
+    "date": "2026-02-12",
+    "headline": "January CPI arrives Friday after shutdown delay — consensus expects inflation cooling to 2.5%",
+    "summary": "The January consumer price index, delayed two days by the brief government shutdown in late January, will be released Friday morning. Economists expect headline CPI at 2.5% year-over-year, down from December's 2.7%, with core CPI also forecast at 2.5%. The shutdown also disrupted BLS data collection, adding uncertainty to the numbers.",
+    "why_it_matters": "This is the first inflation reading that may reflect early tariff-driven price pressures. The Fed is stuck between above-target inflation and a labor market that was much weaker in 2025 than anyone realized. Friday's number helps determine whether rate cuts are still on the table this year.",
+    "category": "economy",
+    "sources": [
+      { "name": "Morningstar", "url": "https://www.morningstar.com/economy/delayed-cpi-report-show-persistent-inflation" },
+      { "name": "CEPR", "url": "https://cepr.net/publications/january-2026-cpi-preview-what-to-expect/" }
+    ],
+    "added_at": "2026-02-12T15:00:00Z"
+  },
+  {
+    "id": "2026-02-12-004",
+    "date": "2026-02-12",
+    "headline": "Pentagon orders second carrier strike group to prepare for Middle East deployment",
+    "summary": "The USS George H.W. Bush carrier strike group has been told to prepare for deployment to the Middle East, joining the USS Abraham Lincoln group already on station in the Arabian Sea. The buildup now includes two carrier strike groups, additional air assets, and missile defense systems — the largest US military concentration in the region since 2024.",
+    "why_it_matters": "This is the stick behind the carrot of the Oman nuclear talks. Trump told Axios he's considering the second carrier as preparation for military action if negotiations fail. The simultaneous pursuit of diplomacy and military escalation echoes the approach before the June 2025 strikes, and raises the question of whether the talks are genuine or a pretext for a predetermined outcome.",
+    "category": "world",
+    "sources": [
+      { "name": "The War Zone", "url": "https://www.twz.com/news-features/second-carrier-strike-group-ordered-to-spin-up-for-deployment-to-middle-east-report" },
+      { "name": "Axios", "url": "https://www.axios.com/2026/02/10/trump-iran-talks-aircraft-carriers" },
+      { "name": "Military.com", "url": "https://www.military.com/feature/2026/01/29/us-forces-headed-middle-east-tensions-iran-rise.html" }
+    ],
+    "added_at": "2026-02-12T15:00:00Z"
+  },
+  {
+    "id": "2026-02-12-003",
+    "date": "2026-02-12",
+    "headline": "OpenAI's GPT-5.3-Codex is the first model its own creator flagged as a high cybersecurity risk",
+    "summary": "OpenAI classified GPT-5.3-Codex as potentially \"High\" capability in the cybersecurity domain under its Preparedness Framework — the first time any OpenAI model has triggered this designation. The company is delaying full API access and launched a vetted \"Trusted Access for Cyber\" program with $10 million in credits for defenders. A California watchdog has already alleged the release violates the state's new AI safety law.",
+    "why_it_matters": "This is a notable precedent: a frontier lab voluntarily restricting its own product because it's too good at finding and exploiting vulnerabilities. The California enforcement angle connects directly to the federal preemption fight — the exact kind of state-level action the White House is trying to block.",
+    "category": "tech",
+    "sources": [
+      { "name": "Fortune", "url": "https://fortune.com/2026/02/05/openai-gpt-5-3-codex-warns-unprecedented-cybersecurity-risks/" },
+      { "name": "OpenAI System Card", "url": "https://openai.com/index/gpt-5-3-codex-system-card/" },
+      { "name": "Fortune (CA law)", "url": "https://fortune.com/2026/02/10/openai-violated-californias-ai-safety-law-gpt-5-3-codex-ai-model-watchdog-claims/" }
+    ],
+    "added_at": "2026-02-12T15:00:00Z"
+  },
+  {
+    "id": "2026-02-12-002",
+    "date": "2026-02-12",
+    "headline": "Half of xAI's founding team has now quit as Musk restructures after SpaceX merger",
+    "summary": "Co-founders Jimmy Ba and Tony Wu announced their departures from xAI back-to-back, bringing total co-founder exits to six out of twelve. Musk responded by reorganizing xAI into four divisions: Grok (chatbot/voice), Coding, Imagine (video), and a new AI software unit called Macrohard. The restructuring comes just days after xAI completed its merger with SpaceX in the largest corporate combination in history.",
+    "why_it_matters": "Losing half your founding team within two years is a red flag regardless of context. The departures suggest internal friction — likely over pace, direction, or the SpaceX integration — at a moment when xAI is trying to close the gap with OpenAI and Anthropic. The \"Macrohard\" name tells you something about the ambition; the exodus tells you something about the reality.",
+    "category": "tech",
+    "sources": [
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/11/musk-announces-xai-re-org-following-key-departures-spacex-merger.html" },
+      { "name": "CNBC", "url": "https://www.cnbc.com/2026/02/10/musks-xai-loses-second-co-founder-in-two-days-as-jimmy-ba-departs.html" },
+      { "name": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-02-11/musk-restructures-xai-s-teams-after-co-founders-exit" }
+    ],
+    "added_at": "2026-02-12T15:00:00Z"
+  },
+  {
+    "id": "2026-02-12-001",
+    "date": "2026-02-12",
+    "slug": "cbo-debt-trajectory",
+    "headline": "CBO projects federal debt will hit 120% of GDP by 2036, with two trust funds going insolvent",
+    "summary": "The Congressional Budget Office's new 10-year outlook projects deficits totaling $24.4 trillion through 2036, with debt rising from 99% of GDP today to a record 120%. Net interest payments will double to $2.1 trillion annually. Two major trust funds — Highway (2028) and Social Security Old-Age (2032) — face insolvency. Tariff revenue of $3.4 trillion partially offsets the $4.2 trillion cost of the 2025 reconciliation act.",
+    "why_it_matters": "Interest on the debt is becoming the fastest-growing federal expenditure, crowding out everything else. The Social Security timeline is particularly stark: without congressional action by 2032, retirees face automatic benefit cuts of 17-21%. These aren't hypothetical projections — they're the math of current law.",
+    "category": "economy",
+    "sources": [
+      { "name": "CBO", "url": "https://www.cbo.gov/publication/61882" },
+      { "name": "Committee for a Responsible Federal Budget", "url": "https://www.crfb.org/blogs/cbo-releases-february-2026-budget-and-economic-outlook" },
+      { "name": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/2/11/cbo-us-federal-deficits-and-debt-to-worsen-over-next-decade" }
+    ],
+    "added_at": "2026-02-12T15:00:00Z"
+  },
+  {
     "id": "2026-02-11-009",
     "date": "2026-02-11",
     "headline": "China's deflation problem persists as January inflation undershoots forecasts",
